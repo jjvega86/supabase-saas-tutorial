@@ -19,7 +19,7 @@ const Pricing = ({ plans }) => {
               </p>
               <p className="italic">per {plan.interval}</p>
             </div>
-            <CTAButton />
+            <CTAButton plan={plan} />
           </div>
         );
       })}
